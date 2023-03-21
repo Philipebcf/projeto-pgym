@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <title>Home pGym</title>
 
-        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
@@ -15,17 +15,17 @@
     </head>
     <body>
 
-        <header class="d-flex justify-content-between">
+        <header class="cabecalho d-flex justify-content-between">
             <h1 class="text-primary">pGym</h1>
-            <div class="dropdown">
-                <button class="btn btn-primary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  foto
+            <nav class="dropdown">
+                <button class="menu__botao--usuario" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="menu__imagem--usuario" src="assets/img/usuario-icone-padrao.png">
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Perfil</a>
-                  <a class="dropdown-item" href="#">Sair</a>
-                </div>
-              </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Sair</a></li>
+                </ul>
+            </nav>
         </header>
 
   

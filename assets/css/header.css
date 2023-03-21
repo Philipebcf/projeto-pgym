@@ -1,0 +1,14 @@
+.cabecalho {
+    box-shadow: 0px 0px 3px black;
+}
+
+.menu__botao--usuario {
+    border: 1px solid blue;
+    border-radius: 100%;
+}
+
+.menu__imagem--usuario {
+    width: 40px;
+    height: 45px;
+   
+}
