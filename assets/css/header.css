@@ -1,14 +1,50 @@
 .cabecalho {
     box-shadow: 0px 0px 3px black;
+    padding: 0.3rem;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-texto-azul);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
 }
 
 .menu__botao--usuario {
-    border: 1px solid blue;
+    width: 50px;
+    height: 45px;
+    border: 3px solid var(--cor-texto-azul);
     border-radius: 100%;
+    padding: 0;
+    margin-right: 1rem;
 }
 
 .menu__imagem--usuario {
-    width: 40px;
-    height: 45px;
+    width: 44px;
+    height: 40px;
+    border-radius: 100%;
    
 }
+.dropdown-menu {
+    top: 6px!important;
+    left: -10px!important;
+    min-width: 0!important;
+    box-shadow: 0px 0px 2px black!important;
+    border: none!important;
+
+}
+.dropdown-item {
+    padding: 0.2rem 1rem!important;
+}
+
+.dropdown-item-link {
+    text-decoration: none;
+}
+
+.dropdown-item-link > i {
+    padding-right: 0.2rem;
+}
+
+
+
+
