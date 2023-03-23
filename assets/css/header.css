@@ -1,6 +1,9 @@
 .cabecalho {
-    box-shadow: 0px 0px 3px black;
-    padding: 0.3rem;
+    position: fixed;
+    width: 100%;
+    background-color: var(--cor-fundo-branco);
+    box-shadow: 0px 0px 2px black;
+    z-index: 1;
 }
 
 .cabecalho__titulo {
@@ -10,13 +13,23 @@
     padding-left: 0.5rem;
 }
 
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.usuario-logado {
+    padding: 0;
+    margin: 0.5rem 0.6rem 0.5rem 0;
+}
+
 .menu__botao--usuario {
     width: 50px;
     height: 45px;
     border: 3px solid var(--cor-texto-azul);
     border-radius: 100%;
     padding: 0;
-    margin-right: 1rem;
+    margin: 0.5rem 2rem 0.5rem 0;
 }
 
 .menu__imagem--usuario {
@@ -27,7 +40,7 @@
 }
 .dropdown-menu {
     top: 6px!important;
-    left: -10px!important;
+    left: -5px!important;
     min-width: 0!important;
     box-shadow: 0px 0px 2px black!important;
     border: none!important;
@@ -39,6 +52,7 @@
 
 .dropdown-item-link {
     text-decoration: none;
+    font-weight: 200;
 }
 
 .dropdown-item-link > i {

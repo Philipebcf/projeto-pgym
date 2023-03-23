@@ -1,13 +1,19 @@
 @import url("header.css");
 @import url("menu-mobile.css");
+@import url("home.css");
 
 :root {
     --cor-fundo-branco: #ffffff;
     --cor-texto-azul: #448aff;
+    --cor-azul: #448aff;
+    --cor-borda-cinza: #e0e0e0;
+    --cor-texto-preto: #000000;
 }
 
 body {
     font-family: 'Yaldevi';
     font-size: 16px;
-    color: var(--cor-fundo-branco);
+    font-weight: 300;
+    background-color: var(--cor-fundo-branco);
+    color: var(--cor-texto-preto);
 }

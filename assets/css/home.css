@@ -1,0 +1,40 @@
+.container__info {
+   padding: 80px 2rem 2rem 2rem;
+
+}
+
+.container_noticias {
+    padding: 2rem;
+}
+
+.noticias--titulo {
+    color: var(--cor-texto-azul);
+}
+
+.container_avivos {
+    padding: 2rem 2rem 100px 2rem;
+}
+
+.avisos--titulo {
+    color: var(--cor-texto-azul);
+}
+
+
+
+
+.info--superior:nth-child(1) {   
+    /* (valor 1 = horizontal), (valor 2 = vertical), (valor 3 = sombra), (valor 4 = tirar a sombra)*/
+    box-shadow: 
+    10px 0 10px -10px var(--cor-azul), 
+    0 10px 10px -10px var(--cor-azul);  
+}
+
+.info--superior:nth-child(2) {   
+    box-shadow: 0 10px 10px -10px var(--cor-azul);   
+}
+
+.info--inferior:nth-child(1) {
+    box-shadow: 10px 0 10px -10px var(--cor-azul);
+}
+
+
