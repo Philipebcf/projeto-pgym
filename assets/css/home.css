@@ -11,11 +11,11 @@
     color: var(--cor-texto-azul);
 }
 
-.container_avivos {
+.container_divulgacoes {
     padding: 2rem 2rem 100px 2rem;
 }
 
-.avisos--titulo {
+.divulgacoes--titulo {
     color: var(--cor-texto-azul);
 }
 
@@ -37,4 +37,21 @@
     box-shadow: 10px 0 10px -10px var(--cor-azul);
 }
 
+@media screen and (min-width: 760px){
+
+    .container__info {
+        
+     
+    }
+     
+    .container_noticias {
+       
+    }
+          
+    .container_divulgacoes {
+        
+    }
+     
+
+}
 

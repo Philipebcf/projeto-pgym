@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("menu-mobile.css");
 @import url("home.css");
+@import url("main.css");
 
 :root {
     --cor-fundo-branco: #ffffff;
