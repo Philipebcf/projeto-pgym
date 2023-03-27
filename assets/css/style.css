@@ -2,9 +2,12 @@
 @import url("menu-mobile.css");
 @import url("home.css");
 @import url("main.css");
+@import url("treinos.css");
+@import url("lista-exercicios.css");
 
 :root {
     --cor-fundo-branco: #ffffff;
+    --cor-texto-branco: #ffffff;
     --cor-texto-azul: #448aff;
     --cor-azul: #448aff;
     --cor-borda-cinza: #e0e0e0;

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Home pGym</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <script src="assets/js/main.js"></script>
+
+        <!-- usando a versão do bootstrap https://getbootstrap.com/docs/4.3/components/dropdowns/-->
+
+    </head>
+    <body>
+
+        <header class="container-cabecalho d-flex justify-content-between align-items-center">
+            <h1 class="cabecalho__titulo">Gym</h1>
+            <nav class="dropdown">
+                <p class="usuario-logado">Philipe</p>
+                <div class="container-menu">
+                    <button class="menu__botao--usuario" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="menu__imagem--usuario" src="assets/img/usuario-icone-padrao.png">
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li class="dropdown-item">
+                              <a class="dropdown-item-link" href="#"><i class="fa-solid fa-gear"></i> Perfil</a>
+                          </li>
+                          <li class="dropdown-item">
+                              <a class="dropdown-item-link" href="#"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+                          </li>
+                      </ul>
+                </div>
+                <div class="btn-group dropleft container-notificacoes">
+                    <button type="button" class="btn btn-leight botao_notificacoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-regular fa-bell icone-notificacoes"></i><span class="badge badge-primary">4</span>
+                    </button>
+                    <div class="dropdown-menu">
+                    <ul>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                        <li>Teste</li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-menu-mobile">
+                <nav class="menu_mobile">
+                    <ul class="lista_mobile">
+                        <li class="lista__mobile-item">
+                            <a class="lista__mobile-link" href="index.html"><i class="fa-solid fa-house lista__mobile--icone"></i>Inicio</a>
+                        </li>
+                        <li class="lista__mobile-item">
+                            <a class="lista__mobile-link" href="treinos.html"><i class="fa-solid fa-dumbbell lista__mobile--icone"></i>Treinos</a>
+                        </li>
+                        <li class="lista__mobile-item">
+                            <a class="lista__mobile-link" href="#"><i class="fa-solid fa-gear lista__mobile--icone"></i> Ajustes</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container-principal">
+
+            <!-- Tela Treinos -->
+            <div class="container__treinos">
+                      
+                        <ul class="lista__exercicios">
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">LEG PRESS HORIZONTAL</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">SISSY SQUAT ANILHA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">HACK 45 Graus</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">CADEIRA EXTENSORA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">CADEIRA ABDUTORA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">GLUTEO MAQUINA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">CADEIRA FLEXORA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">MESA FLEXORA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">PANTURRILHA SENTADA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">PANTURRILHA MAQUINA</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                            <li class="lista__exercicio--item">
+                                <h3 class="lista__exercicios--titulo">ABDOMINAL INFRA SOLO</h3>
+                                <p>Serie: 3x</p>
+                                <label class="item--legenda" for="exercicio1">
+                                    Check
+                                    <input type="checkbox" name="" id="exercicio1" class="item--checkbox">
+                                </label>
+                            </li>
+                        </ul>
+
+                                        
+                             
+            </div>
+
+ 
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

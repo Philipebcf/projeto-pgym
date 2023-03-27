@@ -1,0 +1,77 @@
+.menu__treinos {
+    width: 100%;
+    height: calc(100vh - 120px);
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.lista_treinos {
+    height: calc(100vh - 120px);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.lista_item_treino {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.botao_treino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-azul);
+    color: var(--cor-texto-branco);
+    font-size: 2.5rem;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.icone_treino-icone {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    transform: rotate(45deg);
+    
+}
+
+.estilo_treino {
+    border-bottom: 1px solid var(--cor-fundo-branco);
+}
+
+.lista__exercicio--item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    align-items: center;
+}
+
+.lista__exercicios--titulo, .lista__exercicios--titulo+p {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.item--legenda {
+   margin: 0;
+}
+
+@media screen and (min-width: 760px){
+    .menu__treinos {
+        height: calc(100% - 120px);
+        margin-top: 0px;
+        margin-bottom: 60px;
+    
+    }
+}
