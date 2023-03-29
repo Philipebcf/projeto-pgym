@@ -1,20 +1,21 @@
 .menu__treinos {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 
 }
 
 .lista_treinos {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 0;
+    margin: 0;
 }
 
 .lista_item_treino {
@@ -48,13 +49,18 @@
     border-bottom: 1px solid var(--cor-fundo-branco);
 }
 
+.lista__exercicios {
+    margin: 100px 0!important;  
+}
+
 .lista__exercicio--item {
-    width: 100%;
+    box-shadow: 0px 0px 5px var(--cor-fundo-preto);
+    height: 10vh;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 0.5rem 1rem;
-    margin: 0;
-    align-items: center;
+    margin: 1rem 1rem;  
+    
 }
 
 .lista__exercicios--titulo, .lista__exercicios--titulo+p {
@@ -69,9 +75,14 @@
 
 @media screen and (min-width: 760px){
     .menu__treinos {
-        height: calc(100% - 120px);
-        margin-top: 0px;
-        margin-bottom: 60px;
+        height: calc(100% - 140px);
+        margin-top: 60px;
+        margin-bottom: 80px;
     
     }
+
+    .lista__exercicios {
+        margin: 0!important; 
+    }
+    
 }
