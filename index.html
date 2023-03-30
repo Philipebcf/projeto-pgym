@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <title>Home pGym</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home pGym</title>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <!-- usando a versão do bootstrap https://getbootstrap.com/docs/4.3/components/dropdowns/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-    </head>
-    <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-        <header class="container-cabecalho d-flex justify-content-between align-items-center">
-            <h1 class="cabecalho__titulo">Gym</h1>
-            <nav class="dropdown">
-                <p class="usuario-logado">Philipe</p>
-                <div class="container-menu">
-                    <button class="menu__botao--usuario" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="menu__imagem--usuario" src="assets/img/usuario-icone-padrao.png">
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <li class="dropdown-item">
-                              <a class="dropdown-item-link" href="#"><i class="fa-solid fa-gear"></i> Perfil</a>
-                          </li>
-                          <li class="dropdown-item">
-                              <a class="dropdown-item-link" href="#"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
-                          </li>
-                      </ul>
-                </div>
-                <div class="btn-group dropleft container-notificacoes">
-                    <button type="button" class="btn btn-leight botao_notificacoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa-regular fa-bell icone-notificacoes"></i><span class="badge badge-primary">4</span>
-                    </button>
-                    <div class="dropdown-menu">
+    <!-- usando a versão do bootstrap https://getbootstrap.com/docs/4.3/components/dropdowns/-->
+</head>
+
+<body>
+    <header class="container-cabecalho d-flex justify-content-between align-items-center">
+        <h1 class="cabecalho__titulo">Gym</h1>
+        <nav class="dropdown">
+            <p class="usuario-logado">Philipe</p>
+            <div class="container-menu">
+                <button class="menu__botao--usuario" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img class="menu__imagem--usuario" src="assets/img/usuario-icone-padrao.png">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" href="#"><i class="fa-solid fa-gear"></i> Perfil</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" href="#"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group dropleft container-notificacoes">
+                <button type="button" class="btn btn-leight botao_notificacoes" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-regular fa-bell icone-notificacoes"></i><span class="badge badge-primary">4</span>
+                </button>
+                <div class="dropdown-menu">
                     <ul>
                         <li>Teste</li>
                         <li>Teste</li>
@@ -54,119 +58,136 @@
                         <li>Teste</li>
                         <li>Teste</li>
                     </ul>
-                    </div>
                 </div>
+            </div>
+        </nav>
+        <div class="container-menu-mobile">
+            <nav class="menu_mobile">
+                <ul class="lista_mobile">
+                    <li class="lista__mobile-item">
+                        <a class="lista__mobile-link" href="index.html"><i class="fa-solid fa-house lista__mobile--icone"></i>Inicio</a>
+                    </li>
+                    <li class="lista__mobile-item">
+                        <a class="lista__mobile-link" href="treinos.html"><i class="fa-solid fa-dumbbell lista__mobile--icone"></i>Treinos</a>
+                    </li>
+                    <li class="lista__mobile-item">
+                        <a class="lista__mobile-link" href="#"><i class="fa-solid fa-gear lista__mobile--icone"></i>Ajustes</a>
+                    </li>
+                </ul>
             </nav>
-            <div class="container-menu-mobile">
-                <nav class="menu_mobile">
-                    <ul class="lista_mobile">
-                        <li class="lista__mobile-item">
-                            <a class="lista__mobile-link" href="index.html"><i class="fa-solid fa-house lista__mobile--icone"></i>Inicio</a>
-                        </li>
-                        <li class="lista__mobile-item">
-                            <a class="lista__mobile-link" href="treinos.html"><i class="fa-solid fa-dumbbell lista__mobile--icone"></i>Treinos</a>
-                        </li>
-                        <li class="lista__mobile-item">
-                            <a class="lista__mobile-link" href="#"><i class="fa-solid fa-gear lista__mobile--icone"></i>Ajustes</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        </div>
+    </header>
+    <main class="container-principal">
 
-        <main class="container-principal">
-
-            <!-- Tela Home -->
-            <div class="container__info">
-                <div class="row">
-                    <div class="col-6 info--superior">
-                        Where does it come from?
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        
+        <!-- Tela Home -->
+        <div class="container__info">
+            <div class="row">
+                <div class="col-6 info--superior">
+                    <div class="informacoes__dia">
+                        <p>Segunda-feira,</p>
+                        <data>01/01/2023</data>
+                        <time>12:30</time>
+                        <a href="treino-a.html">Treino A</a>
                     </div>
-                    <div class="col-6 info--superior">
-                        Where does it come from?
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        
-                    </div>
-
                 </div>
-                <div class="row">
-                    <div class="col-6 info--inferior">
-                        Where does it come from?
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        
-                    </div>
-                    <div class="col-6 info--inferior">
-                        Where does it come from?
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                       
+                <div class="col-6 info--superior">
+                    <!-- https://www.tempo.com/bom-jesus-dos-perdoes.htm -->
+                    <div class="informacoes__tempo">
+                        <p>29°C</p>
+                        <img class="img-tempo" src="assets/img/tempo.png" alt="tempo">
+                        <p>parcialmente ensolarado</p>
                     </div>
                 </div>
             </div>
-
-            <div class="container_noticias">
-                <h2 class="noticias--titulo">Principais Noticias</h2>
-                <div class="caixa_noticias">
-                    Where does it come from?
-                    Contrary to popular belief,<br>
-                    Lorem Ipsum is not simply random text.<br> 
-                    It has roots in a piece of<br> 
-                    classical Latin literature from 45 BC,<br> 
-                    making it over 2000 years old.<br> 
-                    Richard McClintock, a Latin professor<br>
-                     at Hampden-Sydney College in Virginia
-
-     
+            <div class="row">
+                <div class="col-6 info--inferior">
+                    <div class="informacoes__alimentacao">
+                        <p>Dieta / Alimentação</p>
+                        <a href="#">Ver dia</a>
+                    </div>
+                </div>
+                <div class="col-6 info--inferior">
+                    <div class="informacoes__corporal">
+                        <p>Informações Corporal:</p>
+                        <p>IMC: 28</p>
+                        <p>Peso Atual: 85 kg</p>
+                        <p>Meta: 75 kg</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="container_divulgacoes">
-                <h2 class="divulgacoes--titulo">Divulgações</h2>
-                <div class="caixa_divulgacoes">
-                    <!-- Slider main container -->
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <img class="swiper-slide--img" src="assets/img/divulgacao-01.jpeg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-slide--img" src="assets/img/divulgacao-02.jpeg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-slide--img" src="assets/img/divulgacao-03.jpeg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-slide--img" src="assets/img/divulgacao-04.jpeg" alt="">
-                            </div>
-                        
-                            
+        </div>
+        <div class="container_noticias">
+            <h2 class="noticias--titulo">Principais Noticias</h2>
+            <div class="caixa_noticias">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/noticias-01.jpg" alt="">
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                    
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    
-                        <!-- If we need scrollbar -->
-                       
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/noticias-02.jpg" alt="">
+                        </div>
+
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- If we need scrollbar -->
                 </div>
             </div>
+        </div>
+        <div class="container_divulgacoes">
+            <h2 class="divulgacoes--titulo">Divulgações</h2>
+            <div class="caixa_divulgacoes">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/divulgacao-01.jpeg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/divulgacao-02.jpeg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/divulgacao-03.jpeg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide--img" src="assets/img/divulgacao-04.jpeg" alt="">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-        </main>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- If we need scrollbar -->
+                </div>
+            </div>
+        </div>
+        <!-- Fim Tela Home -->
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
