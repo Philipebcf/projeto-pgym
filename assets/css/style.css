@@ -4,6 +4,7 @@
 @import url("main.css");
 @import url("treinos.css");
 @import url("lista-exercicios.css");
+@import url("ajustes.css");
 
 :root {
     --cor-fundo-branco: #ffffff;

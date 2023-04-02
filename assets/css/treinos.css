@@ -1,4 +1,4 @@
-.menu__treinos {
+.menu__central {
     width: 100%;
     height: calc(100vh - 140px);
     margin-top: 60px;
@@ -6,7 +6,7 @@
 
 }
 
-.lista_treinos {
+.lista_central {
     height: calc(100vh - 140px);
     margin-top: 60px;
     margin-bottom: 80px;
@@ -18,14 +18,14 @@
     margin: 0;
 }
 
-.lista_item_treino {
+.lista_item_central {
     list-style: none;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
 }
 
-.botao_treino {
+.botao_central {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,14 +38,14 @@
     border-radius: 0;
 }
 
-.icone_treino-icone {
+.icone_central-icone {
     padding: 0.5rem;
     font-size: 1.5rem;
     transform: rotate(45deg);
     
 }
 
-.estilo_treino {
+.estilo_central {
     border-bottom: 1px solid var(--cor-fundo-branco);
 }
 
@@ -74,11 +74,17 @@
 }
 
 @media screen and (min-width: 760px){
-    .menu__treinos {
-        height: calc(100% - 140px);
-        margin-top: 60px;
-        margin-bottom: 80px;
+
+    .menu__central {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
     
+    }
+    
+    .lista_central {
+        height: 100vh;
+        margin: 0;
     }
 
     .lista__exercicios {
