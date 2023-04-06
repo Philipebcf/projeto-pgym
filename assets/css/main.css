@@ -1,9 +1,7 @@
 .container-principal {
-    position: absolute;
     width: 100%;
-    height: calc(100% - 140px);
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 60px!important;
+    margin-bottom: 80px!important;
 }
 
 @media screen and (min-width: 760px){
@@ -12,9 +10,8 @@
         position: absolute;
         right: 0;
         width: calc(100% - 80px);
-        height: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
         box-sizing: border-box;
     }
 
