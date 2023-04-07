@@ -1,5 +1,5 @@
 .container__info {
-   padding: 1rem 2rem 2rem 2rem;
+   padding: 2rem;
 }
 
 .informacoes__tempo {
@@ -61,7 +61,6 @@
 
 .container_divulgacoes {
     padding: 2rem;
-    margin: 0;
 }
 
 .divulgacoes--titulo {
